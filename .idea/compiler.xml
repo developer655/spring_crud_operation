@@ -7,13 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_crud_operation" />
+        <module name="authorization" />
+        <module name="client" />
+        <module name="server" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring_crud_operation" options="-parameters" />
+      <module name="authorization" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="spring_crud_operation" options="" />
     </option>
   </component>
 </project>
