@@ -1,0 +1,15 @@
+server:
+  port: 1210
+
+spring:
+  data:
+    mongodb:
+      database: spring
+      uri: mongodb+srv://mohiuddin655:mohiuddin655@spring-crud.9ashljo.mongodb.net/?retryWrites=true&w=majority
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: da18b4200bb0b90f2815
+            client-secret: 2b0a9f152c81122c60efb57e9b887b0b6151f045
