@@ -1,0 +1,28 @@
+
+### Find All Content
+GET http://localhost:1210/api/users
+
+### Get Content by ID
+GET http://localhost:1210/api/users/1
+
+### Create new content
+POST http://localhost:1210/api/users
+Content-Type: application/json
+{
+    "id":"1",
+    "name": "Omie",
+	"email":"richard@gmail.com",
+	"type": "USER"
+}
+
+### Update existing content
+PUT http://localhost:1210/api/users/1
+Content-Type: application/json
+{
+    "id":"1",
+    "name": "Omie Talukdar",
+	"email":"omietalukdar@gmail.com",
+	"type": "ADMIN"
+}
+### Delete by id
+PUT http://localhost:1210/api/users/1
