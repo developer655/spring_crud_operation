@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.example.spring_crud_operation.properties.AppProperties",
+      "sourceType": "com.example.spring_crud_operation.properties.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.api-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.spring_crud_operation.properties.AppProperties"
+    },
+    {
+      "name": "app.api-version",
+      "type": "java.lang.String",
+      "sourceType": "com.example.spring_crud_operation.properties.AppProperties"
+    },
+    {
+      "name": "app.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "com.example.spring_crud_operation.properties.AppProperties"
+    },
+    {
+      "name": "app.database-id",
+      "type": "java.lang.String",
+      "sourceType": "com.example.spring_crud_operation.properties.AppProperties"
+    }
+  ],
+  "hints": []
+}
